@@ -68,9 +68,9 @@ body {
 display: inline;
   }
 
-  .portfolio a:hover {
+  .portfolio:hover {
     color: #445385;
-    font-weight: 700;
+    font-weight: 700 !important;
 
   }
 
