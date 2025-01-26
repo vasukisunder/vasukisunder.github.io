@@ -1,39 +1,3 @@
-/*
- *                        ___
- *                       /\_ \
- *  _____     ___     ___\//\ \      __
- * /\ '__`\  / __`\  / __`\\ \ \   /'__`\
- * \ \ \_\ \/\ \_\ \/\ \_\ \\_\ \_/\  __/
- *  \ \ ,__/\ \____/\ \____//\____\ \____\
- *   \ \ \/  \/___/  \/___/ \/____/\/____/
- *    \ \_\
- *     \/_/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/poole.
- */
-
-
-/*
- * Contents
- *
- * Body resets
- * Custom type
- * Messages
- * Container
- * Masthead
- * Posts and pages
- * Pagination
- * Reverse layout
- * Themes
- */
-
-
-/*
- * Body resets
- *
- * Update the foundational and global aspects of the page.
- */
 
 * {
   -webkit-box-sizing: border-box;
@@ -45,12 +9,13 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: #e6eaf7;
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
+  font-family: "Diatype", sans-serif;
+  font-size: 17px;
+  line-height: 1.3;
 }
 @media (min-width: 38em) {
   html {
@@ -59,15 +24,13 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color: #151723;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
-/* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #151723;
   text-decoration: none;
 }
 a strong {
@@ -76,48 +39,65 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+color: #445385
+  
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.25;
-  color: #313131;
+  color: #151723;
   text-rendering: optimizeLegibility;
+  letter-spacing: -0.25px;
+  font-family: 'Diatype', sans-serif; 
 }
 h1 {
-  font-size: 2rem;
+  font-size: 20px;
+  font-weight: 900;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 18px;
 }
 h3 {
   margin-top: 1.5rem;
-  font-size: 1.25rem;
+  padding-bottom:8px;
+  font-size: 16px;
 }
 h4, h5, h6 {
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 14px;
 }
 
 /* Body text */
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 17px;;
+  letter-spacing: -0.15px;
+}
+p a {
+  border-bottom: 1px dotted #222222b0;
+
 }
 
+p a:hover {
+  border-bottom: 1px solid #445385;
+  color: #445385;
+
+}
 strong {
-  color: #303030;
+  color: #151723;
 }
 
 
 /* Lists */
 ul, ol, dl {
-  margin-top: 0;
+  margin-top: 1rem;
   margin-bottom: 1rem;
+  list-style-type: none;
+  padding: 0px;
 }
 
 dt {
@@ -139,7 +119,7 @@ hr {
 abbr {
   font-size: 85%;
   font-weight: bold;
-  color: #555;
+  color: #151723;
   text-transform: uppercase;
 }
 abbr[title] {
@@ -286,7 +266,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
+  max-width: 36rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
@@ -301,25 +281,38 @@ tbody tr:nth-child(odd) th {
  */
 
 .masthead {
-  padding-top:    1rem;
+  padding-top:    3rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
 }
 .masthead-title {
   margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
+  margin-bottom: 4px;
+  color: #151723;
+  font-weight: 900;
+  letter-spacing: -0.3px;
+
 }
 .masthead-title a {
-  color: #505050;
+  color: #151723;
 }
-.masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
+.desc {
+  font-family: 'Diatype', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(21, 23, 35, 0.68);
+  letter-spacing: -0.15px;
+line-height: 15px;  
+display: inline;
 }
 
+
+
+.desc-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
 
 /*
  * Posts and pages
@@ -337,7 +330,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #151723;
 }
 .page-title,
 .post-title {
@@ -346,10 +339,37 @@ tbody tr:nth-child(odd) th {
 
 /* Meta data line below post title */
 .post-date {
-  display: block;
+  font-family: 'Diatype', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+  line-height: 100%;
+  letter-spacing: -0.15px;
+  display: inline;
+}
+
+.metadata {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4px;
+}
+
+.tag-container {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
+.tags {
+  font-family: 'Diatype', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+  display: inline;
+  margin-right: 3px;
+  line-height: 100%;
 }
 
 /* Related posts */

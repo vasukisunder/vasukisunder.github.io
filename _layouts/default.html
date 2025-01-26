@@ -5,18 +5,28 @@
 
   <body>
 
-    {% include sidebar.html %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
         <div class="container">
-          <h3 class="masthead-title">
+          <h1 class="masthead-title">
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
+          </h1>
+          <div class="desc-container">
+            <div class="desc">
+          <span class="desc">parsons school of design <br></span>
+          <span class="desc">mfa design and technology</span>
         </div>
+        
+        <div class="link-container">
+         <a class="portfolio" href="https://vasuki.studio/" title="portfolio">portfolio</a>
+          <a class="portfolio" href="{{ site.baseurl }}/archive" title="archive">archive</a>
+
+        </div>
+        </div>
+      </div>
       </div>
 
       <div class="container content">
@@ -24,7 +34,6 @@
       </div>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
   </body>

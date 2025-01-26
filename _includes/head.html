@@ -19,15 +19,15 @@
   {% if page.url and site.baseurl %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   {% endif %}
-
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/custom.css">
   <link rel="stylesheet" href="{{ '/public/css/poole.css' | absolute_url }}">
   <link rel="stylesheet" href="{{ '/public/css/syntax.css' | absolute_url }}">
-  <link rel="stylesheet" href="{{ '/public/css/lanyon.css' | absolute_url }}">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
 
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/public/apple-touch-icon-precomposed.png' | absolute_url }}">
-  <link rel="shortcut icon" href="{{ '/public/favicon.ico' | absolute_url }}">
-
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+ 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | absolute_url }}">
 
   {% if site.google_analytics_id %}

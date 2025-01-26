@@ -1,0 +1,23 @@
+---
+permalink: /archive.html
+layout: default
+---
+<div>
+  <h1>archive</h1>
+  {% include tagcloud.html %}
+
+  <div>
+    <ul class="related-posts">
+        {% for post in site.posts %}
+        <li>
+          <h3 class="list-title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h3>
+          <div class="post-date">{{ post.date | date_to_string }}</div>
+
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  
+</div>

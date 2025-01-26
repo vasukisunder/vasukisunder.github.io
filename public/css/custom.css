@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Garamond';
+    src: url('../fonts/AGaramondPro-Regular.otf') format('opentype'); 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Garamond';
+    src: url('../fonts/AGaramondPro-Italic.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Diatype';
+    src: url('../fonts/ABCDiatype-Regular-Trial.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Diatype';
+    src: url('../fonts/ABCDiatype-Light-Trial.otf') format('opentype'); 
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Diatype';
+    src: url('../fonts/ABCDiatype-Heavy-Trial.otf') format('opentype'); 
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Diatype';
+    src: url('../fonts/ABCDiatype-Black-Trial.otf') format('opentype'); 
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Diatype';
+    src: url('../fonts/ABCDiatype-Medium-Trial.otf') format('opentype'); 
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: 'EB Garamond', serif; 
+    font-optical-sizing: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    letter-spacing: -0.1px;
+    font-weight: 400;
+    line-height: 140%;
+
+}
+
+.portfolio {
+    line-height:15px;
+    font-family: 'Diatype', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(21, 23, 35, 0.68);
+  letter-spacing: -0.15px;
+display: inline;
+  }
+
+  .portfolio a:hover {
+    color: #445385;
+    font-weight: 700;
+
+  }
+
+  .link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .tagcloud {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 8px;
+    padding-bottom: 20px;
+  }
+
+  .archive-tag {
+    margin: 3px;
+    font-family: 'Diatype', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    background-color: #c8d2f3;
+    padding: 2px 5px;
+    border-radius: 4px;
+    
+  }
+
+  .archive-tag:hover {
+    background-color: #445385;
+    color: #fafafa;
+  }
+
+  .list-title {
+    display: inline;
+    margin-right: 4px;
+  }

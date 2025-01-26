@@ -1,17 +1,17 @@
 # Setup
-title:               Your Blog Title
-tagline:             'Your tagline here'
-description:         'A brief description of your blog'
+title:               journal
+tagline:             ''
+description:         ''
 url:                 https://vasukisunder.github.io
 baseurl:             ''
-paginate:            5
+paginate:            100
 permalink:           pretty
 
 # About/contact
 author:
-  name:              Your Name
-  url:               https://twitter.com/yourtwitter
-  email:             your@email.com
+  name:              vasuki sunder
+  url:              
+  email:             
 
 # Gems
 plugins:
