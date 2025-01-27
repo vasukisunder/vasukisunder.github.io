@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: major studio"
+title: "tag: major studio"
 tag: major-studio
 ---
