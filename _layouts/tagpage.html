@@ -3,11 +3,20 @@ layout: default
 ---
 <div class="post">
 <h2>tag: {{ page.tag }}</h1>
-<ul>
-{% for post in site.tags[page.tag] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> <span class="post-date">  {{ post.date |     date_to_string }}</span><br>
-    {{ post.description }}
-  </li>
-{% endfor %}
-</ul>
+
+  <div>
+    <ul class="related-posts">
+        {% for post in site.tags[page.tag] %}
+        <li>
+          <h3 class="list-title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h3>
+          <div class="post-date">{{ post.date | date_to_string }}</div>
+
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  
+
 </div>
