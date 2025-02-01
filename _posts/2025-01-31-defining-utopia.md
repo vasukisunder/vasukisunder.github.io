@@ -4,7 +4,8 @@ title: 'Defining utopia and dystopia'
 tags: mfa
 ---
 
-*“Human life, at its best, is wonderful. I’m asking you to create something greater: life that is truly humane.”* —Letter from Utopia (2008)
+## “Human life, at its best, is wonderful. I’m asking you to create something greater: life that is truly humane.” 
+#### —Letter from Utopia (2008)
 
 We started off this semester with a selection of readings surrounding the themes of utopia and dystopia, and the energy we’ve landed on seems to be one of skepticism and discouragement. Is utopia even possible?  Is the discussion on utopia just idle speculation, a distraction from real issues, or [worst of all, a potential excuse for horrific acts](https://www.goodreads.com/quotes/172616-totalitarianism-is-not-only-hell-but-all-the-dream-of)?
 
@@ -20,7 +21,7 @@ We must remember how good things can get.  Ultimately, the existing beauty in li
 > 
 > Do you not feel it, the touch of the possible? You have witnessed the potential for a higher life: you hold the fading proof in your hands. Don’t throw it away. In the attic of your mind, reserve a drawer for the notion of a higher state of being, and in the furnace of your heart keep at least one aspiring ember alive.”
 
-No one can deny the terrible things going on in our world right now, but I believe it is our duty to remember how good life can be, for it is our only path forward — and this is the path to utopia. *“Utopia is the hope that the scattered fragments of good that we come across from time to time in our lives can be put together, one day, to reveal the shape of a new kind of life.”*
+No one can deny the terrible things going on in our world right now, but I believe it is our duty to remember how good life can be, for it is our only path forward — and this is the path to utopia — *“Utopia is the hope that the scattered fragments of good that we come across from time to time in our lives can be put together, one day, to reveal the shape of a new kind of life.”*
 
 
 
