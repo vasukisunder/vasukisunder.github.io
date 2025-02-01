@@ -21,7 +21,7 @@ We must remember how good things can get.  Ultimately, the existing beauty in li
 > 
 > Do you not feel it, the touch of the possible? You have witnessed the potential for a higher life: you hold the fading proof in your hands. Don’t throw it away. In the attic of your mind, reserve a drawer for the notion of a higher state of being, and in the furnace of your heart keep at least one aspiring ember alive.”
 
-No one can deny the terrible things going on in our world right now, but I believe it is our duty to remember how good life can be, for it is our only path forward — and this is the path to utopia — *“Utopia is the hope that the scattered fragments of good that we come across from time to time in our lives can be put together, one day, to reveal the shape of a new kind of life.”*
+No one can deny the terrible things going on in our world right now, but I believe it is our duty to remember how good life can be, for it is our only path forward — and this is the path to utopia. *“Utopia is the hope that the scattered fragments of good that we come across from time to time in our lives can be put together, one day, to reveal the shape of a new kind of life.”*
 
 
 
