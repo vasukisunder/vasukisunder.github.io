@@ -210,6 +210,12 @@ blockquote p:last-child {
   }
 }
 
+@media (max-width: 600px) {
+  blockquote {
+    padding-left: 1rem;
+  }
+}
+
 img {
   display: block;
   max-width: 100%;
