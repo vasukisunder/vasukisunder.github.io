@@ -48,17 +48,17 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.15;
   color: #151723;
   text-rendering: optimizeLegibility;
-  letter-spacing: -0.25px;
+  letter-spacing: -0.35px;
   font-family: 'Inter', sans-serif; 
 }
 h1 {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: -0.55px;
+
 
 }
 h2 {
   margin-top: 0.5rem;
-  font-weight: 300;
   line-height: 1.3;
   font-size: 16px;
 }
@@ -307,7 +307,7 @@ tbody tr:nth-child(odd) th {
 }
 .desc {
   font-family: 'Inter', sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   color: rgba(21, 23, 35, 0.68);
   letter-spacing: -0.15px;
@@ -332,7 +332,7 @@ display: inline;
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 5em;
 }
 
 /* Blog post or page title */
@@ -351,7 +351,6 @@ display: inline;
   font-family: 'Inter', sans-serif;
   font-size: 10px;
   font-weight: 400;
-  margin-bottom: 1rem;
   color: #9a9a9a;
   line-height: 100%;
   letter-spacing: -0.15px;
@@ -361,11 +360,13 @@ display: inline;
 .metadata {
   display: flex;
   justify-content: space-between;
+  margin-top: 4px;
 }
 
 .tag-container {
   display: flex; /* Use flexbox for layout */
   flex-wrap: wrap; /* Allow wrapping if needed */
+  padding-bottom: 8px;
 }
 
 .tags {
@@ -382,7 +383,6 @@ display: inline;
 
 /* Related posts */
 .related {
-  padding-top: 2rem;
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
 }
