@@ -5,7 +5,8 @@ description:         ''
 url:                 https://vasukisunder.github.io
 baseurl:             ''
 paginate:            100
-permalink:           pretty
+permalink:           /:title/
+assets:              /assets
 
 # About/contact
 author:
