@@ -2,12 +2,13 @@
 
 body {
     
-  font-family: 'Cormorant Garamond', serif; 
+  font-family: 'EB Garamond', serif; 
     font-optical-sizing: auto;
     font-size: 16px;
     letter-spacing: 0px;
     font-weight: 400;
     line-height: 140%;
+    -webkit-font-smoothing: antialiased;
 
 
 }

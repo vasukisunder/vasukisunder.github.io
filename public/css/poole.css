@@ -340,6 +340,7 @@ display: inline;
 .post-title,
 .post-title a {
   color: #151723;
+  font-weight: 300;
 }
 .page-title,
 .post-title {
