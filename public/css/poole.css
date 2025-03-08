@@ -101,7 +101,7 @@ ul, ol, dl {
   margin-top: 1rem;
   margin-bottom: 1rem;
   list-style-type: square;
-  list-style-position: inside;
+  list-style-position: outside;
   padding: 0px;
 }
 
