@@ -2,10 +2,10 @@
 
 body {
     
-  font-family: 'EB Garamond', serif; 
+  font-family: 'Inter', serif; 
     font-optical-sizing: auto;
-    font-size: 16px;
-    letter-spacing: 0px;
+    font-size: 13px;
+    letter-spacing: -0.3px;
     font-weight: 400;
     line-height: 140%;
     -webkit-font-smoothing: antialiased;
