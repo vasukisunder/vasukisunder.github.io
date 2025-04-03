@@ -4,28 +4,14 @@ layout: default
 
 <article class="post">
     <div class="post-date">{{ page.date | date: "%B %-d, %Y" }}</div>
-    <h1 class="post-title">
-        <a href="{{ page.url }}">{{ page.title }}</a>
-    </h1>
-    <div class="post-content">
-        {{ content }}
+    <div class="post-content-wrapper">
+        <h1 class="post-title">
+            <a href="{{ page.url }}">{{ page.title }}</a>
+        </h1>
+        <div class="post-content">
+            {{ content }}
+        </div>
     </div>
 </article>
 
-{% if site.related_posts.size >= 1 %}
-<div class="related">
-  <h2>Related posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <div class="metadata"><div class="post-date">{{ post.date | date_to_string }}</div></div>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
+
