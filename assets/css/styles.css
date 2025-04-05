@@ -24,7 +24,7 @@ h4 {
 }
 
 .site-title {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0 0 40px 0;
     font-weight: normal;
 }
@@ -48,8 +48,9 @@ h4 {
 
 .post-date {
     color: #9c9c9c;
-    font-size: 10px;
+    font-size: 11px;
     text-align: left;
+    margin-top: 4px;
 }
 
 .post-content-wrapper {
@@ -57,7 +58,7 @@ h4 {
 }
 
 .post-title {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     margin: 0;
     margin-bottom: 4px;
