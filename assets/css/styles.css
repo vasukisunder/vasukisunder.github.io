@@ -100,4 +100,39 @@ em {
 /* Remove the vertical line separator */
 .post-content-wrapper {
     border-left: none;
+}
+
+.post-image {
+    width: 100%;
+    margin-bottom: 16px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.post-figure {
+    margin: 0 0 16px 0;
+}
+
+.post-caption {
+    font-size: 11px;
+    color: #666;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+/* Add this to your CSS file */
+.post-content img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+.post-content figure {
+    margin: 0 0 16px 0;
+}
+
+.post-content figcaption {
+    font-size: 11px;
+    color: #666;
+    margin-top: 4px;
 } 
