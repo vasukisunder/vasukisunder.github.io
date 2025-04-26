@@ -104,13 +104,13 @@ em {
 
 .post-image {
     width: 100%;
-    margin-bottom: 16px;
+    margin-bottom: 4px;
     max-height: 300px;
     object-fit: cover;
 }
 
 .post-figure {
-    margin: 0 0 16px 0;
+    margin: 0 0 8px 0;
 }
 
 .post-caption {
@@ -124,11 +124,11 @@ em {
 .post-content img {
     width: 100%;
     object-fit: cover;
-    margin-bottom: 16px;
+    margin-top: 4px;
 }
 
 .post-content figure {
-    margin: 0 0 16px 0;
+    margin: 0 0 4px 0;
 }
 
 .post-content figcaption {
